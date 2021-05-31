@@ -1,0 +1,82 @@
+table{
+	margin:50px 250px 50px 250px;
+}
+table{
+	/*Main table*/
+	background-color:black; 
+	border-style: groove;
+	border-color:darkslategrey;
+}
+p{
+	color:crimson;
+}
+h1{
+	color:steelblue;
+}
+
+.number{
+	color:maroon;
+	counter-reset: list;
+}
+.number > li {
+    list-style: none;
+}
+.number > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
+.alph{
+	color:maroon;
+	counter-reset: list;
+}
+.alph > li {
+    list-style: none;
+}
+.alph > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
+.roman{
+	color:maroon;
+	counter-reset: list;
+}
+.roman > li {
+    list-style: none;
+}
+.roman > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
+
+a{
+	font-size: 20px;
+}
+a:link{
+	color:aliceblue;
+}
+a:visited{
+	color:grey;
+}
+a:hover{
+	color:yellow;
+}
+
+.img{
+	height:100px;
+	width:600px;
+}
+.bottom{
+	color:darkgrey;
+}
+.inner_table{
+	/*table in the table page*/
+	background-color:azure;
+	color:black;
+}
+.ftable{
+	/*table in the form page*/
+	padding:15px 15px 15px 15px;
+	background-color:aliceblue;
+	color:black;
+}
+
